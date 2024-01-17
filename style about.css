@@ -1,0 +1,52 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Dancing Script', cursive;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Changing the font */
+    background-image: url('question.jpg'); /* Add your background image path */
+    background-size: cover;
+    background-position: center;
+}
+
+.about {
+    max-width: 1000px;
+    max-height: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.7); /* Adding a semi-transparent background for readability */
+    text-align: justify;
+    font-size: 30px;
+    font-family: Dancing Script;
+    border-radius: 20px; /* Adding rounded corners */
+    box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.7); /* Adding a glowing effect */
+}
+
+h1 {
+    text-align: center;
+    font-size: 70px; /* Changing the font size */
+    color: #333; /* Changing the text color */
+}
+
+a {
+    text-decoration: none; /* Remove underline for the link */
+}
+
+/* Adjust the size of the xmark icon */
+.back-icon {
+    font-size: 50px; /* Change the size as needed */
+}
+
+/* Hide the text content visually */
+.back-icon::before {
+    content: ''; /* Empty content */
+    display: block;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}

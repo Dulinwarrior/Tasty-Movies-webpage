@@ -1,0 +1,172 @@
+
+* {
+    font-family: 'Dancing Script', cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 600px;
+    background-image: url('tvseriesmain23.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 70px;
+    color: #0943d4;
+    margin-top: -623px;
+    margin-right: 40px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: -180px;
+    margin-bottom: 30px;
+}
+
+.image-group {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.image-group img,
+.single-image img {
+    width: 350px;
+    height: 220px;
+    border-radius: 20%;
+    margin: 0 20px;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 10px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 5px;
+    display: none;
+}
+
+.image-with-text {
+    position: relative;
+}
+
+.image-with-text:hover .text-overlay {
+    display: block;
+}
+
+.image-text-1,
+.image-text-2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 10px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 5px;
+    display: none;
+    margin: 0 20px;
+}
+
+.image-text-3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 10px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 5px;
+    display: none;
+}
+
+.image-group:hover .image-text-1,
+.image-group:hover .image-text-2,
+.single-image:hover .image-text-3 {
+    display: block;
+}
+
+
+.image-container .image-1 img {
+
+    width: 300px;
+    height: 200px;
+    border-radius: 40px;
+    margin-right: 500px;
+    margin-top: 50px;
+}
+
+.image-container .image-2 img {
+    width: 300px;
+    height: 200px;
+    border-radius: 40px;
+    margin-left: -100px;
+    margin-top: 50px;
+
+}
+.image-container .image-3 img {
+    width: 300px;
+    height: 200px;
+    border-radius: 40px;
+    margin-left: -650px;
+    margin-top: 600px;
+}
+
+
+
+.imagetextu{
+    font-size: 50px;
+    font-family: Poppins;
+    margin-left: 380px;
+
+  }
+
+  .imagetextu2{
+    font-size: 50px;
+    font-family: Poppins;
+    margin-left: 970px;
+    margin-top: -90px;
+
+  }
+
+  .imagetextu3{
+    font-size: 50px;
+    font-family: Poppins;
+    margin-left: 970px;
+    margin-top: -90px;
+
+  }
+
+  .top-bar {
+    background-color: #700c0c; /* Background color for the bar */
+    color: white; /* Text color */
+    padding: 10px 20px; /* Padding inside the bar */
+    position: fixed; /* Fixed position */
+    top: 0; /* Stick to the top */
+    left: 0; /* Stick to the left */
+    width: 300px; /* Full width of the viewport */
+    z-index: 999; /* Ensure the bar stays on top of other content */
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: 100px
+}
